@@ -1,0 +1,44 @@
+| **Listing Number** | **Title**                           | **Description**                                                                                       | **Page**                           |
+|---------------------|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| **1**              | Data Loading from Kaggle            | Code snippet demonstrating how to fetch datasets from Kaggle and integrate them into the data pipeline| see latex & word doc. 3.1 Implementation part|
+| **2**              | Data Cleaning Pipeline              | Python function for filtering spam, bot-generated content, and irrelevant tweets.                     | see latex & word doc. 3.1 Implementation part|
+| **3**              | Sentiment Analysis Model            | Code for fine-tuning GPT-based sentiment analysis model using context-specific training data.         | see latex & word doc. 3.1 Implementation part|
+| **4**              | Google BigQuery Integration         | SQL and Python code to load and query processed data from BigQuery for dashboard visualization.       | see latex & word doc. 3.1 Implementation part|
+| **5**              | Dashboard Script                    | Script for real-time data visualization using Google Data Studio and Power BI integration.            | see latex & word doc. 3.1 Implementation part|
+| **6**              | GCP VM Setup Script                 | Shell script to configure a Linux VM on Google Cloud Platform for data processing.                    | see latex & word doc. 3.1 Implementation part|
+| **7**              | Jupyter Notebook for Data Cleaning  | Key steps implemented in a Jupyter Notebook for spam filtering and data preprocessing.                | see latex & word doc. 3.1 Implementation part|
+| **8**              | Jupyter Notebook for Sentiment Analysis | Demonstrates training and evaluation of the contextual sentiment analysis pipeline.               |see latex & word doc. 3.1 Implementation part |
+
+
+📂 BE-Enterprises-Twitter-Analysis
+│
+├── data_pipeline/
+│   ├── data_fetch.py               # Scripts to fetch data from APIs (Twitter/X API or Kaggle)
+│   ├── data_cleaning.py            # Data cleaning scripts (spam/bot filtering)
+│   ├── nlp_cleaning.py             # NLP text preprocessing scripts
+│   └── requirements.txt            # List of Python dependencies
+│
+├── sentiment_analysis/
+│   ├── model.py                    # Sentiment analysis model (using GPT)
+│   ├── contextual_sentiment.py     # Contextual sentiment analysis script
+│
+├── cloud_setup/
+│   ├── vm_setup.sh                 # GCP Linux VM setup script
+│   ├── bigquery_schema.sql         # BigQuery schema setup
+│   └── deployment_instructions.md  # Steps to deploy on GCP
+│
+├── dashboard/
+│   ├── powerbi_dashboard.pbit      # Power BI dashboard template
+│   ├── realtime_dashboard.py       # Google Data Studio integration
+│
+├── notebooks/
+│   ├── data_cleaning_notebook.ipynb    # Jupyter notebook for data cleaning
+│   ├── sentiment_analysis_notebook.ipynb # Jupyter notebook for sentiment analysis
+│
+├── tests/
+│   ├── test_data_pipeline.py        # Unit tests for data pipeline
+│   ├── test_sentiment_analysis.py   # Unit tests for sentiment analysis
+│
+├── .gitignore
+├── LICENSE
+└── README.md
