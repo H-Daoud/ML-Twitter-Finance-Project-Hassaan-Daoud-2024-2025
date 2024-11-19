@@ -1,0 +1,26 @@
+LICENSE file:
+Twitter Sentiment Analysis Project
+Copyright (c) 2024 [Hassaan Daoud]
+Under the supervision of CCT College Dublin.
+
+Permissions and Conditions
+This project was developed as part of an academic requirement under the supervision of CCT College. The following terms govern its use:
+
+Permitted Use:
+The source code, scripts, and related materials in this repository may be used for educational and non-commercial research purposes.
+Modification and redistribution are allowed under the same terms, provided proper attribution is given to the original author(s) and to CCT College.
+
+Attribution:
+You must clearly state that the code and materials originate from this repository and were developed under the supervision of CCT College.
+Example attribution:
+
+Code kopieren
+This work is based on the "https://github.com/H-Daoud" developed under the supervision of CCT College Dublin.
+
+Prohibited Use:
+Commercial use, redistribution as part of a proprietary product, or use without proper acknowledgment is prohibited without explicit permission from both the author(s) and CCT College.
+
+Disclaimer:
+Third-Party Software and Dependencies
+1-This project makes use of third-party tools and software (e.g., Google Cloud Platform, Kaggle datasets, OpenAI models) that are subject to their own licenses. Users of this repository are responsible for complying with those third-party licensing terms.
+2-This repository is provided "as-is" without any warranties of any kind. The author(s) and CCT College are not responsible for any damages, direct or indirect, resulting from the use of this code.
