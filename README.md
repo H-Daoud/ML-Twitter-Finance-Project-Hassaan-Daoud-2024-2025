@@ -7,12 +7,12 @@ Data Cleaning: Implement advanced techniques to filter out spam, bots, and irrel
 Sentiment Analysis: Use contextual sentiment analysis to handle ambiguous or context-dependent language (e.g., sarcasm, irony).
 
 **Project Architecture**
-The project uses a mix of GCP services, BigQuery, GCP storage, and Python libraries to achieve robust data analysis and visualization, more info. about directory structure: see architecture diagram file in GitHub files.
+The project uses a mix of GCP services, GCP storage, and Python libraries to achieve robust data analysis and visualization, more info. about directory structure: see architecture diagram file in GitHub files.
 
 **Below is an overview of the architecture:**
 Data Source: Kaggle, Twitter/X API.
 Data Processing: GCP Linux VM, Python scripts, and NLP models.
-Data Storage: Google BigQuery and Google Cloud Storage.
+Data Storage: Google Cloud Storage.
 Visualization: Power BI and Google Data Studio.
 Deployment: GitHub, with CI/CD pipeline via GitHub Actions.
 Privacy & Compliance: GDPR-compliant data handling.
@@ -37,8 +37,8 @@ Step 3: Contextual Sentiment Analysis
 Fine-tune the GPT-4 model using sentiment_analysis/contextual_sentiment.py.
 Detect sarcasm, irony, and nuanced sentiment using pre-trained transformers.
 Step 4: Data Storage
-Load cleaned data into BigQuery using cloud_setup/bigquery_schema.sql.
-Optionally, store data in Google Firestore for flexibility.
+Load cleaned data into cloud_setup
+Optionally, can store data in Google Firestore for flexibility.
 
 C. Visualization Dashboard
 Launch the Power BI dashboard using the powerbi_dashboard.pbit file.
