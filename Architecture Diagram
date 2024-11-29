@@ -20,21 +20,22 @@
 │   └── requirements.txt            # List of Python dependencies
 │
 ├── sentiment_analysis/
-│   ├── model.py                    # Sentiment analysis model (using GPT)
-│   ├── contextual_sentiment.py     # Contextual sentiment analysis script
+│   ├── model.py                    # Sentiment analysis model (using finBERT & BERTweet)
+│   
 │
 ├── cloud_setup/
 │   ├── vm_setup.sh                 # GCP Linux VM setup script
-│   ├── ML RondomForest model       # run ML RondomForest model schema setup
+│   ├── ML RondomForest model       # run ML RondomForest model
+│   ├── Huggingface API             # run finBERT and BERTweet model
 │   └── deployment_instructions.md  # Steps to deploy on GCP
 │
 ├── dashboard/
 │   ├── powerbi_dashboard.pbit      # Power BI dashboard template
 │   ├── realtime_dashboard.py       # Google Data Studio integration
 │
-├── notebooks/
-│   ├── data_cleaning_notebook.ipynb    # Jupyter notebook for data cleaning
-│   ├── sentiment_analysis_notebook.ipynb # Jupyter notebook for sentiment analysis
+├── colab notebooks/
+│   ├── version-1_Code_Capstone-sbs23096.ipynb    # Jupyter notebook for data cleaning & ML RondomForest model
+│   ├── version-2_Code_Capstone-sbs23096.ipynb   # Jupyter notebook for finBERT and BERTweet and evaluations sentiment analysis
 │
 ├── tests/
 │   ├── test_data_pipeline.py        # Unit tests for data pipeline
